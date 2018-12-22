@@ -1,0 +1,72 @@
+#main_div{
+    background-color: lightgrey;
+    width: 625px;
+    height: auto;
+    padding: 0px 5px;
+    margin: auto;
+}
+
+div{
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 80px;
+    margin-bottom: 25px;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    border: solid transparent;
+    border-top-width: 30px;
+    border-bottom-width: 15px;
+    margin:0px;
+    font-size: 24px;
+}
+
+p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    border: solid transparent;
+    border-bottom-width: 30px;
+    margin:0px;
+}
+
+#first{
+    background-image: url("zuta.jpg");
+}
+
+#second{
+    background-image: url("roza.jpg");
+}
+
+#third{
+    background-image: url("telefon.jpg");
+}
+
+button{
+    background-color: rgba(207, 204, 204, 0.4);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 12px;
+    padding: 6px 10px;
+}
+
+.buttons_top, .buttons_bottom{
+    border: solid transparent;
+    border-top-width: 0px;
+    border-bottom-width: 10px;
+}
+
+.buttons_bottom{
+    border-bottom-width: 25px;
+}
